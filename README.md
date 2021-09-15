@@ -16,8 +16,8 @@ Shuffle a very long sequence:
 ```python
 from randiter import randiter
 
-for index in randiter(range(1_000_000_000)):
-    print(index)  # random number
+for i in randiter(range(1_000_000_000)):
+    print(i)  # random number
 ```
 
 Shuffle lines in a text file with an unknown length:
@@ -35,8 +35,8 @@ Shuffle a sequence with a large buffer size (to perform perfect shuffling, speci
 ```python
 from randiter import randiter
 
-for index in randiter(range(1_000_000_000), buffer_size=1_000_000):
-    print(index)  # random number
+for i in randiter(range(1_000_000_000), buffer_size=1_000_000):
+    print(i)  # random number
 ```
 
 ## FAQ
