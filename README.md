@@ -3,6 +3,12 @@
 `randiter` randomly iterates a sequence with buffered shuffling.
 `randiter` is suitable for shuffling very long sequences and sequences with an unknown length.
 
+## Installation
+
+```commandline
+$ pip install randiter
+```
+
 ## Usage
 
 Shuffle a very long sequence:
